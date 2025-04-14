@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"; // ✅ เพิ่ม Footer
 import Home from "./pages/Home";
+import ScrollToTopButton from "./components/ScrollToTopButton"; // ✅
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     </Routes>
   </main>
   <Footer />
+  <ScrollToTopButton /> {/* ✅ วางตรงนี้ */}
 </div>
     </Router>
   );
