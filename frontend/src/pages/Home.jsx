@@ -20,7 +20,6 @@ export default function Home() {
       <ERPServiceSection /> {/* ✅ เรียกใช้งานตรงนี้ */}
       <RecentWorkSection />
       <BlogSection /> {/* แสดง section blog */}
-      <ModelViewer />
       <GameSection /> {/* ✅ เรียกใช้งานตรงนี้ */}
     </>
   );
