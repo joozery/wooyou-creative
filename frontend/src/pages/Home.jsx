@@ -7,6 +7,7 @@ import BlogSection from "../components/BlogSection";
 import RecentWorkSection from "../components/RecentWorkSection";
 import GameSection from "../components/GameSection";  // ✅ เพิ่มส่วนนี้
 import ERPServiceSection from "../components/ERPServiceSection"; // ✅ เพิ่มมา
+import ModelViewer from "../components/ModelViewer";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <ERPServiceSection /> {/* ✅ เรียกใช้งานตรงนี้ */}
       <RecentWorkSection />
       <BlogSection /> {/* แสดง section blog */}
+      <ModelViewer />
       <GameSection /> {/* ✅ เรียกใช้งานตรงนี้ */}
     </>
   );
