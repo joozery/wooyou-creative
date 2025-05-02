@@ -6,6 +6,8 @@ import IntroTechSection from "../components/IntroTechSection";
 import BlogSection from "../components/BlogSection";
 import RecentWorkSection from "../components/RecentWorkSection";
 import GameSection from "../components/GameSection";  // ✅ เพิ่มส่วนนี้
+import ERPServiceSection from "../components/ERPServiceSection"; // ✅ เพิ่มมา
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <MarqueeSlider />
       <ServiceSection /> {/* ✅ เรียกใช้งานตรงนี้ */}
       <IntroTechSection /> {/* ✅ แนะนำบริษัท + ไอคอน */}
+      <ERPServiceSection /> {/* ✅ เรียกใช้งานตรงนี้ */}
       <RecentWorkSection />
       <BlogSection /> {/* แสดง section blog */}
       <GameSection /> {/* ✅ เรียกใช้งานตรงนี้ */}
