@@ -1,4 +1,5 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -21,20 +22,20 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold text-blue-300 mb-3">Company</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">About Us</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Service</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Careers</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Contact</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-semibold text-blue-300 mb-3">Resources</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#">Docs</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Help Center</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Docs</a></li>
+              <li><Link to="/privacy-policy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="hover:text-blue-400 transition-colors">Help Center</a></li>
             </ul>
           </div>
 
